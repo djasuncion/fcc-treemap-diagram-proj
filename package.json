@@ -1,0 +1,12 @@
+{
+  "name": "fcc-treemap-diagram-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "git push -u origin master && gh-pages -d public"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
