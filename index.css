@@ -12,3 +12,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: lighter;
+}
+
+.tooltip {
+  position: absolute;
+}
