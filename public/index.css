@@ -20,7 +20,7 @@ body {
   padding: 1rem;
   align-items: center;
   text-align: center;
-  height: 15vh;
+  height: 10vh;
 }
 
 h2 {
@@ -28,6 +28,26 @@ h2 {
   font-weight: lighter;
 }
 
-.tooltip {
+#tooltip {
   position: absolute;
+  background-color: #000;
+  padding: 1.24rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #fff;
+  pointer-events: none;
+}
+
+svg {
+  font-size: 0.65rem;
+  text-align: center;
+  display: block;
+}
+
+#legend {
+  font-size: 0.75rem;
+}
+
+.tile-text:hover {
+  cursor: default;
 }
